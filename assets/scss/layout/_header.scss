@@ -1,4 +1,31 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.header {
+  .image-container {
+    width: 53px;
+    height: 53px;
+  }
+  .searchbar{
+    form{
+      width: 335px;
+    }
+    input {
+      background: rgba(0, 0, 0, 0);
+      flex-grow: 1;
+    }
+  
+    .icofont-search-1{
+      font-size: 19px;
+    }
+
+  }
+
+  .rightPart {
+    font-size: 18px;
+
+  
+  }
+
+  
+
+
+
 }

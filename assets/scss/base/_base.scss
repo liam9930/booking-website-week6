@@ -1,0 +1,44 @@
+/* rwd ing css,可以當作css Reset其中一個*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*全域border-box*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.ola{
+    outline: auto;
+}
+
+
+
+p,h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-bottom: 0px;
+}
+body{
+    font-family: 'Noto Serif TC', serif;
+    background-image: url(../images/background-img-1.png);
+    // background: url(../images/background-img.png), lightgray 0% 0% / 89.60000276565552px 89.60000276565552px repeat, #F3F1E5;
+    color: #030303;
+
+}
+a{
+    text-decoration: none;
+    color: #030303;
+    &:hover{
+        color:#9C9E18;
+    }
+}
+
+ul,li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+

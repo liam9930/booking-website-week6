@@ -1,11 +1,23 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
 
+@import './mixin/breakpoint';
+
 
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
 
+@import './component/card';
+@import './component/swiper';
+
+
+@import './utils/font';
+
+
 @import './pages/index.scss';
 
+
+
 @import "../../node_modules/bootstrap";
+@import './base/base';

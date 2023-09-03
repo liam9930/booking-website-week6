@@ -1,0 +1,51 @@
+.recentCard{
+    .dateTitle{
+        font-size: 48px;
+        padding-bottom: 12px;
+    }
+    .image{
+        margin-top: 12px;
+        width: 100%;
+    }
+    .itemTitle{
+        margin-top: 12px;
+    }
+    .content{
+        margin-top: 12px;
+    }
+    a:hover{
+        color: #030303;
+        text-decoration: underline;
+    }
+    button{
+        border: none;
+        background: none;
+        position:relative;
+        &::before{
+            content:'';
+            width: 29px;
+            height:29px;
+            background-color:  #FBFF22;
+            position: absolute;
+            z-index: -1;
+            border-radius: 29px;
+            top:50%;
+            left: px;
+            transform: translate(-50%,-50%);
+            
+            display: none;
+        }
+        &:hover {
+            &::before{
+                display: block;
+            }
+        } 
+        
+       
+    }
+    .activity a,.activity button{
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+    }
+   
+}

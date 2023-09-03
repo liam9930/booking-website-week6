@@ -46,6 +46,9 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+$black2:  #030303;
+$neonYellow:#FBFF22;
+$darkred:#C96464;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -63,7 +66,10 @@ $colors: (
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "black2":     $black2,
+  "neonYellow":$neonYellow,
+  "darkred":$darkred,
 ) !default;
 // scss-docs-end colors-map
 
@@ -298,8 +304,9 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $black2 !default;
+$secondary:     $neonYellow !default;
+$third: $darkred;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -312,12 +319,14 @@ $dark:          $gray-900 !default;
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
+  "Third":      $third,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "black2":     $black2
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -378,7 +387,8 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3,
+  5: $spacer * 2,
+  6: $spacer * 3
 ) !default;
 // scss-docs-end spacer-variables-maps
 
