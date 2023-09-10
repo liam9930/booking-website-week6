@@ -1,18 +1,25 @@
-.swiper{
-    background-color: #000;
-    margin-top: 60px;
-  }
-  .swiper-wrapper {
-    transition-timing-function: linear;
-  }
-  .swiper-slide {
+.swiper {
+  background-color: #000;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.swiper-slide {
+  font-size: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  width: auto;
+  color: #FBFF22;
+  background: #000;
+
+  @include b768 {
     padding-top: 24px;
     padding-bottom: 24px;
     font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 3.2px;
-    width: auto;
-    color: #FBFF22;
-    background: #000;
+
   }
-  
+}

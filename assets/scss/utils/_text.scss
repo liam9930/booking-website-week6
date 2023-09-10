@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;500;600;700&family=Yeseva+One&display=swap');
+.Ye-On {
+    font-family: 'Yeseva One', cursive;
+}
+
+.Noto-Se {
+    font-family: 'Noto Serif TC', serif;
+}
+.Noto-Sa{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.fs-10 {
+    font-size: 10px;
+}
+.fz-18 {
+    font-size: 18px;
+}
+
+.fs {
+    &-nav {
+        font-size: 16px;
+
+        @include b768 {
+            font-size: 32px;
+        }
+
+    }
+
+}
+
+.fs {
+    &-20{
+        font-size: 20px;
+    }
+    &-24{
+        font-size: 24px;
+    }
+    &-32 {
+        font-size: 32px;
+    }
+    &-lg-32 {
+        @include b992{
+            font-size: 32px;
+        }
+    }
+
+    &-lg-64{
+        @include b992{
+            font-size: 64px;
+        }
+    }
+
+    &-xl-48{
+        @include b1200{
+        font-size: 48px;
+        }
+    } 
+
+}

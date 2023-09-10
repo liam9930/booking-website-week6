@@ -1,19 +1,24 @@
 .header {
   .image-container {
-    width: 53px;
-    height: 53px;
+    width: 44px;
+    height: 44px;
+    @include b768{
+      width: 57px;
+      height: 57px;
+    }
   }
   .searchbar{
-    form{
-      width: 335px;
-    }
+
+   
     input {
       background: rgba(0, 0, 0, 0);
-      flex-grow: 1;
     }
   
     .icofont-search-1{
-      font-size: 19px;
+      font-size: 15px;
+      @include b768{
+        font-size: 19px;
+      }
     }
 
   }
@@ -22,6 +27,12 @@
     font-size: 18px;
 
   
+  }
+  .menu{
+    border: 1px solid #030303;
+    border-radius: 4px;
+    padding: 4px 12px;
+    width: 54px;
   }
 
   

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>login</title>
+  <link rel="stylesheet" href="../assets/images/icofont/icofont.min.css">
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+
+    <div
+      class="image-container d-flex justify-content-center align-items-center mt-60">
+      <img src="../assets/images/icon/sparkler 1.png" alt="sparkler" width="32" height="32">
+    </div>
+    <h1 class="text-center fs-24 Noto-Se mt-16 fw-bold">會員登入</h1>
+
+    <div class="container login mt-3 mb-175 Noto-Sa">
+      <div class="container">
+        <form class="row justify-content-center needs-validation" novalidate>
+          <div class="col-12 col-md-6">
+            <div class="mb-3">
+              <label for="username" class="form-label">帳號</label>
+              <input type="text" class="form-control border border-2 border-primary rounded-0 py-2 fs-20" id="username" placeholder="請輸入帳號" required>
+              <div class="invalid-feedback ">
+                請輸入帳號
+              </div>
+            </div> 
+            <div class="mb-3 mb-md-5">
+              <label for="username" class="form-label">密碼</label>
+              <input type="text" class="form-control border border-2 border-primary rounded-0 py-2 fs-20" id="username" placeholder="請輸入密碼" required>
+              <div class="invalid-feedback">
+                請輸入密碼
+              </div>
+            </div>
+            <button class="btn btn-primary w-100 rounded-0 py-3 py-md-2 fs-18 fw-bold" type="submit">登入<svg xmlns="http://www.w3.org/2000/svg" width="18"
+                height="18" viewBox="0 0 18 18" fill="none">
+                <path
+                  d="M14.1913 8.496L10.5337 4.8384C10.2547 4.5594 9.80286 4.5594 9.52386 4.8384L9.20886 5.1534C8.92986 5.4324 8.92986 5.8842 9.20886 6.1632L11.5435 8.4978C11.6839 8.6382 11.7523 8.82 11.7523 9.0018C11.7523 9.1836 11.6821 9.3672 11.5435 9.5058L9.20886 11.8404C8.92986 12.1194 8.92986 12.5712 9.20886 12.8502L9.52386 13.1652C9.80286 13.4406 10.2547 13.4406 10.5337 13.1616L14.1913 9.504C14.3317 9.3636 14.4001 9.1818 14.4001 9C14.4001 8.8182 14.3299 8.6346 14.1913 8.496ZM8.79126 8.496L5.13366 4.8384C4.85466 4.5594 4.40286 4.5594 4.12386 4.8384L3.80886 5.1534C3.52986 5.4324 3.52986 5.8842 3.80886 6.1632L6.14346 8.4978C6.28386 8.6382 6.35226 8.82 6.35226 9.0018C6.35226 9.1836 6.28206 9.3672 6.14346 9.5058L3.80886 11.8404C3.52986 12.1194 3.52986 12.5712 3.80886 12.8502L4.12386 13.1652C4.40286 13.4406 4.85466 13.4406 5.13366 13.1616L8.79126 9.504C8.93166 9.3636 9.00006 9.1818 9.00006 9C9.00006 8.8182 8.92986 8.6346 8.79126 8.496Z"
+                  fill="white" />
+              </svg></button>
+          </div>
+        </form>
+      </div>
+
+
+
+    </div>
+    <%- include('./layout/footer'); -%>
+
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+      <script type="module" src="../main.js"></script>
+</body>
+
+</html>
