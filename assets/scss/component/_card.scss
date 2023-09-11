@@ -49,3 +49,12 @@
     }
    
 }
+
+.selection{
+    .s-card{
+        width:98%;
+        @include b768{
+            width:25%;
+        }
+    }
+}
